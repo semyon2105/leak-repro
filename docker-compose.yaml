@@ -1,0 +1,8 @@
+version: "2.4"
+services:
+  leak-repro-collector-enabled:
+    build: .
+    command: collector-enabled
+
+  leak-repro-collector-disabled:
+    build: .
